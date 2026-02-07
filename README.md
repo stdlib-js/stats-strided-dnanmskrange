@@ -52,7 +52,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import dnanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanmskrange@esm/index.mjs';
+import dnanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanmskrange@v0.1.1-esm/index.mjs';
 ```
 
 #### dnanmskrange( N, x, strideX, mask, strideMask )
@@ -171,7 +171,7 @@ var v = dnanmskrange.ndarray( 4, x, 2, 1, mask, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import dnanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanmskrange@esm/index.mjs';
+import dnanmskrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-dnanmskrange@v0.1.1-esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
